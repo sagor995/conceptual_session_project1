@@ -55,6 +55,7 @@
     font-weight: bold;
 }
 
+
 .description{
     font-size: 18px;
     margin-top: 15px;
@@ -66,4 +67,16 @@
     color: white;
     background: tomato;
     border: none;
+}
+
+.about-title{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 }
