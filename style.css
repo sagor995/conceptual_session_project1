@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menus{
+    display: flex;
+}
+
+.item{
+    margin-right: 10px;
+    padding-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: blue;
+}
