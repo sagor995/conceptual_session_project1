@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    
+    <!-- To show some text from reverse dir -->
+    <h1><bdo dir="rtl">Hello World</bdo></h1>
+    <!-- To show an char above from current pos -->
+    <h1>Hel<sup>l</sup>o</h1>
+    <!-- To show a msg on mouse cursor of the text.-->
+    <h1><abbr title="BD means love">Bangladesh</abbr></h1>
+
+    <!-- To show progress first way (0.0-1.0)-->
+    <label for="pro1">Progress: </label>
+    <meter id="pro1" value="0.5"></meter>
+    <!-- To show progress with anim Second way -->
+    <br>
+    <label for="pro2">Progress: </label>
+    <progress id="pro2"></progress>
+
+    <!-- To show details tag -->
+    <details>
+        <summary>Detail1</summary>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid cum temporibus aperiam deleniti nam pariatur in sapiente perferendis omnis, nesciunt cupiditate necessitatibus quis veritatis ipsam, quas sunt! Aspernatur voluptatibus hic voluptatum quidem nesciunt eveniet voluptates? Placeat odio sunt porro recusandae quas possimus iure excepturi ea eius expedita necessitatibus, quidem dolore?</p>
+    </details>
+
+    <!-- To set cursor on text -->
+    <h1 class="hove">Hover here</h1>
+
+
 </body>
 </html>
