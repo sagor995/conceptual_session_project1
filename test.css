@@ -3,7 +3,32 @@
     padding: 0px;
 }
 
-.hove{
-    color: green;
-    cursor: url('https://freepngimg.com/thumb/categories/1688.png'), auto;
+/* justify-content works :horizontally
+align-items works :vertically */
+.container{
+    display: flex;
+    height: 500px;
+    border: 2px dotted gray;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: end; */
+    justify-content: space-around;
+    align-items: center;
+    /* To change direction */
+    flex-direction: row-reverse;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    padding: 20px;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: deepskyblue;
 }
