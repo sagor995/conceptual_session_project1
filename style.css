@@ -80,3 +80,39 @@
     align-items: center;
     flex-direction: row-reverse;
 }
+
+.box{
+    width: 230px;
+    height: 290px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 100px;
+}
+
+.btn2{
+    background-color: gray;
+    margin: 10px;
+}
+
+.box-title{
+    padding: 10px;
+}
+
+.box-description{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
+    
+}
