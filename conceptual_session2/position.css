@@ -17,6 +17,5 @@
     background-color: red;
     border-radius: 50px;
     position: absolute;
-    top: 100px;
-    left: 150px;
+    right: 0px;
 }
