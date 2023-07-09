@@ -2,3 +2,29 @@
     margin: 0px;
     padding: 0px;
 }
+
+.nav-container {
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menus {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: large;
+    font-style: italic;
+}
+
+.banner-container {
+    height: 100vh;
+    background-image: url('asset/image/background.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
