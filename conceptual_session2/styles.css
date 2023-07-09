@@ -59,3 +59,93 @@
     border: none;
     padding: 12px 20px;
 }
+
+.service-container {
+    height: 100vh;
+    background-image: url('asset/image/footer-bg.png'),
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.service-description {
+    width: 50%;
+}
+
+.icon {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.box {
+
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+}
+
+.first-two-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.author-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.author-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding: 20px;
+}
+
+.phone-call {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.phone-call h4 {
+    margin-left: 10px;
+}
+
+.appointment-desc p {
+    padding: 30px;
+}
+
+.appintment-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+}
+
+.appointment-btn button {
+    border-radius: 20px;
+}
